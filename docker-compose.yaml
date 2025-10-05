@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:18
+    restart: unless-stopped
+    container_name: pg-notes
+    ports: ["5433:5432"]
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user
+      - POSTGRES_DB=notes
