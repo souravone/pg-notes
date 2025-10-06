@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useRouter } from '@tanstack/react-router'
+import { Link, createFileRoute, useRouter } from '@tanstack/react-router'
 import { CircleX, Lock, Mail, User } from 'lucide-react'
 import React, { useState } from 'react'
 import { authClient } from '@/lib/auth-client'
